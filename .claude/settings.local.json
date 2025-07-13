@@ -16,8 +16,25 @@
       "Bash(git commit:*)",
       "Bash(git remote add:*)",
       "Bash(git branch:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "mcp__rag-server__list_frameworks",
+      "mcp__rag-server__ask_rag",
+      "mcp__rag-server__save_key_moment",
+      "Bash(sqlite3:*)",
+      "Bash(find:*)",
+      "mcp__rag-server__get_stats",
+      "mcp__rag-server__get_recent_changes",
+      "WebFetch(domain:modelcontextprotocol.io)",
+      "Bash(env)",
+      "Bash(node:*)",
+      "mcp__rag-server__get_memory_context",
+      "mcp__rag-server__search_files"
     ],
     "deny": []
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "rag-server"
+  ]
 }
